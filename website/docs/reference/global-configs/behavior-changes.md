@@ -205,7 +205,7 @@ https://docs.getdbt.com/reference/global-configs/behavior-changes.
 
 ```
 
-If you set `require_nested_cumulative_type_params` to `True` and run `dbt parse`, you will now receive an error:
+If you set `require_nested_cumulative_type_params` to `True` and re-run `dbt parse` you will now receive an error like:
 
 ```bash
 
