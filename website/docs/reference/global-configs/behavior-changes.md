@@ -213,7 +213,7 @@ If you set `require_nested_cumulative_type_params` to `True` and re-run `dbt par
 
 ```
 
-Once the metric is updated with the proper, updated syntax, it will work as expected:
+Once the metric is updated, it will work as expected:
 
 ```yaml
 
