@@ -181,7 +181,7 @@ Previously, users needed to set the `DBT_EXPERIMENTAL_MICROBATCH` environment va
 
 [Cumulative-type metrics](/docs/build/cumulative#parameters) are nested under the `cumulative_type_params` field in Versionless dbt Cloud and Core v1.9 and newer. Currently, dbt will warn users if they have cumulative metrics improperly nested. To enforce the new format (resulting in an error instead of a warning), set the `require_nested_cumulative_type_params` to `True`.
 
-Use the following metric as an example:
+Use the following metric configured with the syntax before v1.9 as an example:
 
 ```yaml
 
