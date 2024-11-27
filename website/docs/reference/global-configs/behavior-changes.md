@@ -192,7 +192,7 @@ Use the following metric configured with the syntax before v1.9 as an example:
 
 ```
 
-You will see the following warning on v1.9 or Versionless dbt Cloud if you run `dbt parse`: 
+If you run `dbt parse` with that syntax on Core v1.9 or Versionless dbt Cloud, you will receive a warning like: 
 
 ```bash
 
